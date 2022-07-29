@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: linear-gradient(rgba(30, 30, 164, 0.5),rgba(44, 152, 17, 0.5));
+}
 .container {
   height: 100vh;
   width: 100%;
@@ -14,7 +17,6 @@
   justify-content: center;
   flex-direction: column;
   row-gap: 15px;
-  background-color: black;
 }
 
 .container .image {
