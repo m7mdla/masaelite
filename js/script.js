@@ -3,7 +3,7 @@ const secBox = document.querySelector(".seconds .number"),
   hrBox = document.querySelector(".hours .number"),
   dayBox = document.querySelector(".days .number");
 
-let endDate = new Date(2022, 7, 21, 15, 30);
+let endDate = new Date(2023, 7, 21, 15, 30);
 
 let endTime = endDate.getTime();
 
